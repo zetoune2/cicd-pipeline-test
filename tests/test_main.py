@@ -1,7 +1,7 @@
 import sys
 
 sys.path.insert(0, './app')
-from main import add, hello
+from main import add, hello, multiply
 
 def test_add():
     assert add(2, 3) == 5
