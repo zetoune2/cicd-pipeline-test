@@ -8,3 +8,6 @@ def test_add():
 
 def test_hello():
     assert hello("World") == "Hello, World!"
+
+def test_multiply():
+    assert multiply(2,3) == 6
