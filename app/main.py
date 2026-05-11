@@ -1,11 +1,11 @@
 def add(a, b):
-    return a + b
+    return a - b
 
 def hello(name):
     return f"Hello, {name}!"
 
 def multiply(a, b):
-    return a * b  # bug intentionnel — devrait être a * b
+    return a * b 
 
 if __name__ == "__main__":
     from http.server import HTTPServer, BaseHTTPRequestHandler
