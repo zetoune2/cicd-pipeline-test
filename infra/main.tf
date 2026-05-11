@@ -11,6 +11,7 @@ provider "docker" {}
 
 resource "docker_image" "app" {
   name = "ghcr.io/zetoune2/cicd-pipeline-test:latest"
+  pull_triggers = [timestamp()]
 }
 
 resource "docker_container" "app" {
