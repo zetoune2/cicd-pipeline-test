@@ -1,0 +1,13 @@
+# Terraform
+infro/.terraform/
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/.terraform.lock.hcl
+
+# Python
+__pychache__/
+*.pyc
+.pytest_cache/
+
+# Mac
+.DS_Store
